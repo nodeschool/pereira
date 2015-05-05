@@ -1,4 +1,5 @@
 # NodeSchool Pereira
+[![Gitter chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/pereirajs/pagina)
 ![NodeSchool](http://nodeschool.io/images/schoolhouse.svg)
 
 Bienvenidos a NodeSchool una comunidad mundial enfocada en capacitar sobre Node.js y JavaScript en general. Este es el repositorio para el capitulo Pereira.
