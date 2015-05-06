@@ -13,6 +13,7 @@ La idea es que en este repositorio puedas [hacer alguna pregunta](https://github
  * 23 de Mayo, NodeSchool International Day (pronto mas info)
 
 ## Más Información
+ * Sitio oficial del evento en Pereira: [nodeschool.io/periera](http://nodeschool.io/pereira)
  * Sitio oficial de la comunida NodeSchool: [nodeschool.io](http://nodeschool.io)
  * Sitio oficial del evento mundial: [nodeschool.io/international-day](http://nodeschool.io/international-day/)
  * Sitio oficial de la comunidad PereiraJS: [pereirajs.org](https://pereirajs.org)
