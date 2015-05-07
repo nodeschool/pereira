@@ -175,4 +175,13 @@ function init() {
         map: map,
         icon: image
     });
+
+    var popUp = new google.maps.InfoWindow({
+      content: "<h1>Nodeschool Pereira</h1>" +
+                 "<p>El evento será en la sala 210 Bloque Y, de la Universidad Tecnológica de Pereira</p>";
+    });
+
+    google.maps.event.addListener(beachMarker, 'click', function() {
+      popUp.open(map, beachMarker);
+    });
 }
