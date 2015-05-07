@@ -121,9 +121,9 @@ a:focus {
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
-	.navbar-custom a {
-	    color: black;
-	}
+  .navbar-custom a {
+      color: black;
+  }
 
     .top-nav-collapse {
         padding: 0;
@@ -157,11 +157,11 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 20px;
-	color: black;
+  color: black;
 }
 
 .intro .intro-body .intro-text {
-	color: black;
+  color: black;
     font-size: 18px;
 }
 
@@ -173,7 +173,7 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 40px;
-		margin-top: 20px
+    margin-top: 20px
     }
 
     .intro .intro-body .intro-text {
