@@ -180,7 +180,7 @@ function init() {
       content: '<div id="content">' +
                  '<div id="siteNotice">' +
                  '</div>' +
-                 '<h1 id="firstHeading" class="firstHeading">NodeSchool Pereira</h1>'+
+                 '<h3 id="firstHeading" class="firstHeading">NodeSchool Pereira</h3>'+
                  '<div id="bodyContent">'+
                    '<p>El evento será en la sala 210 Bloque Y, de la Universidad Tecnológica de Pereira</p>' +
                  '</div>'+
