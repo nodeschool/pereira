@@ -184,7 +184,4 @@ function init() {
     google.maps.event.addListener(beachMarker, 'click', function() {
       popUp.open(map, beachMarker);
     });
-
-  });
-
 }
