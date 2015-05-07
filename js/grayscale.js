@@ -45,7 +45,7 @@ function init() {
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
-        scrollwheel: true,
+        scrollwheel: false,
         draggable: true,
 
         // How you would like to style the map.
