@@ -142,12 +142,15 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/PereiraJSback.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    /*background: url(../img/PereiraJSback.jpg) no-repeat bottom center scroll;*/
+    background-image: url(/img/test-bg.png);
+    background-color: #ffe51f;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-blend-mode: multiply;
+    background-size: 25%;
 }
 
 .intro .intro-body {
@@ -368,4 +371,11 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.jointDeveloper {
+  color: #000;
+  font-family: 'Linden Hill', serif;
+  font-style: italic;
+  text-transform: none;
 }
