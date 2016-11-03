@@ -10,9 +10,13 @@ La idea es que en este repositorio puedas [hacer alguna pregunta](https://github
 
 ## Proximos Eventos
 
- * 23 de Mayo, NodeSchool International Day (pronto mas info)
+ * 5 de Noviembre, NodeSchool for Girls (Bajo la coordinacion de [jointDeveloper](http://jointdeveloper.com/))
+ * 21 de Mayo 2016, NodeSchool International Day
+ * 23 de Mayo 2015, NodeSchool International Day
 
 ## Más Información
  * Sitio oficial de la comunida NodeSchool: [nodeschool.io](http://nodeschool.io)
+ * Sitio oficial de la comunida en Pereira de NodeSchool: [nodeschool.io](http://nodeschool.io/pereira)
  * Sitio oficial del evento mundial: [nodeschool.io/international-day](http://nodeschool.io/international-day/)
  * Sitio oficial de la comunidad PereiraJS: [pereirajs.org](https://pereirajs.org)
+ * Sitio oficial de la comunidad jointDeveloper: [jointdeveloper.com](http://jointdeveloper.com/)
