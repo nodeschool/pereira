@@ -142,7 +142,6 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    /*background: url(../img/PereiraJSback.jpg) no-repeat bottom center scroll;*/
     background-image: url(/img/test-bg.png);
     background-color: #ffe51f;
     -webkit-background-size: cover;
@@ -160,11 +159,11 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 20px;
-  color: black;
+    color: black;
 }
 
 .intro .intro-body .intro-text {
-  color: black;
+    color: black;
     font-size: 18px;
 }
 
@@ -378,4 +377,35 @@ body {
   font-family: 'Linden Hill', serif;
   font-style: italic;
   text-transform: none;
+}
+
+.img-perfil {
+  border-radius: 50%;
+  margin: 5px;
+  width: 90%;
+}
+
+.nombre {
+  font-size: 12px;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.descripcion {
+  font-size: 15px;
+  line-height: 1;
+}
+
+.logo {
+  height: auto;
+  margin: 5px;
+  width: 50%;
+}
+
+a {
+  outline: none;
+}
+
+a:focus {
+  outline: 0;
 }

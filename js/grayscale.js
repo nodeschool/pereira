@@ -41,7 +41,7 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(4.808660, -75.704654),
+        center: new google.maps.LatLng(4.790724, -75.690137),
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -169,7 +169,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(4.805574, -75.7255772);
+    var myLatLng = new google.maps.LatLng(4.790724, -75.690137);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
@@ -180,9 +180,9 @@ function init() {
       content: '<div id="content">' +
                  '<div id="siteNotice">' +
                  '</div>' +
-                 '<h3 id="firstHeading" class="firstHeading">NodeSchool Pereira</h3>'+
+                 '<h3 id="firstHeading" class="firstHeading">NodeSchool Pereira jointDeveloper</h3>'+
                  '<div id="bodyContent">'+
-                   '<p>El evento será en Universidad Católica de Pereira</p>' +
+                   '<p>El evento será en Universidad Tecnológica de Pereira</p>' +
                  '</div>'+
                '</div>'
     });
