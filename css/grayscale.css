@@ -142,7 +142,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/test-bg.png);
+    background: url(../../img/test-bg.png);
     background-color: #ffe51f;
     -webkit-background-size: cover;
     -moz-background-size: cover;
