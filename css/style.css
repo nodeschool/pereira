@@ -108,10 +108,18 @@ a:hover, a:focus, a:active, a:visited {
 
 
 .hero-header {
-	background: #016cc7;
-	min-height: 600px;
-	padding: 5em;
-	color: #fff;
+	/* background: #016cc7; */
+	/* min-height: 600px; */
+	padding: 1em 5em;
+    color: #393939;
+    background: url(../img/test-bg.png);
+    background-color: #ffe51f;
+    background-blend-mode: multiply;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-size: 25%;
 }
 .hero-header h1 {
 	margin: 1em 0 0 0;
@@ -126,7 +134,7 @@ a:hover, a:focus, a:active, a:visited {
 	max-width: 180px;
 }
 .hero-header .btn {
-	margin-top: 3em;
+	margin-top: 1em;
 }
 .hero-header .rocket {
 	max-width: 100%;
@@ -299,11 +307,23 @@ ul.footer-menu li a:hover {
 
 /* Mobile */
 
+.logo  { max-width: 400px; }
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 0;
+    margin-top: 20px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: Source Sans Pro,sans-serif;
+}
+
 @media (max-width: 767px) {
     .hero-header {
         padding: 3em 1em 1em 1em;
         text-align: center;
-        max-height: 550px;
+        /* max-height: 550px; */
     }
     .speaker .feature {
         width: 100%
