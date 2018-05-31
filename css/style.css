@@ -131,7 +131,7 @@ a:hover, a:focus, a:active, a:visited {
     margin: 2em 0;
 }
 .hero-header .logo {
-	max-width: 180px;
+	max-width: 250px;
 }
 .hero-header .btn {
 	margin-top: 1em;
@@ -307,7 +307,7 @@ ul.footer-menu li a:hover {
 .logo  { max-width: 400px; }
 
 .title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 900;
     margin-bottom: 0;
     margin-top: 20px;
@@ -323,7 +323,44 @@ a:active, a:focus {
     -moz-outline-style: none;
 }
 
+.event {
+    margin: 20px 0;
+    box-shadow: 0 0 10px #393939;
+    background: #e5e1cf;
+    color: #544f3b;
+    padding: 20px 0;
+}
+
+.event .item {
+    display: inline-block;
+    width: 100%;
+    font-size: 1.1em;
+    line-height: 180%;
+    font-weight: 100;
+    padding: 0 25px;
+    transition: all ease-in-out .2s;
+    position: relative;
+}
+
+.event li {
+    padding-left: 30px;
+}
+
+.event span {
+    display: inline-block;
+    padding: 0 15px 0 8px;
+    margin: 0;
+}
+
 @media (max-width: 767px) {
+    .event {
+        text-align: left;
+    }
+
+    .event .item {
+        padding: 0 10px;
+    }
+
     .hero-header {
         padding: 3em 1em 1em 1em;
         text-align: center;
@@ -340,12 +377,23 @@ a:active, a:focus {
         text-align: center;
         margin-top: 30px;
     }
+    .side-menu {
+        right: 15px;
+    }
 }
 
 
 /* iPad Portrait */
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .event {
+        text-align: left;
+    }
+
+    .event .item {
+        padding: 0 10px;
+    }
+
     .hero-header {
         padding: 3em 1em 1em 1em;
         text-align: center;
@@ -356,6 +404,10 @@ a:active, a:focus {
     }
     ul.footer-menu {
         margin-top: 0;
+    }
+
+    .side-menu {
+        right: 15px;
     }
 }
 
