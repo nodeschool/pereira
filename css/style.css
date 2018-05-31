@@ -108,10 +108,10 @@ a:hover, a:focus, a:active, a:visited {
 
 
 .hero-header {
-	/* background: #016cc7; */
+	/* background: #f9f9f9; */
 	/* min-height: 600px; */
 	padding: 1em 5em;
-    color: #393939;
+    color: #333;
     background: url(../img/test-bg.png);
     background-color: #ffe51f;
     background-blend-mode: multiply;
@@ -151,7 +151,7 @@ a:hover, a:focus, a:active, a:visited {
 }
 .feature span {
 	font-size: 5em;
-    color: #016cc7;
+    color: #5a5a5a;
 }
 
 .speaker .feature {
@@ -314,6 +314,13 @@ ul.footer-menu li a:hover {
     line-height: 1;
     text-transform: uppercase;
     font-family: Source Sans Pro,sans-serif;
+}
+
+a:active, a:focus {
+    outline: 0;
+    border: none;
+    outline-style: none;
+    -moz-outline-style: none;
 }
 
 @media (max-width: 767px) {
