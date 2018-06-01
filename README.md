@@ -1,8 +1,6 @@
 # NodeSchool Pereira
 
-<div style="text-align: center">
-  <a href="https://nodeschool.io/pereira"><img style="width: 200px" src="img/nodeschool-pereira.svg" /></a>
-</div>
+![NodeSchool](img/nodeschool-pereira.png)
 
 Bienvenidos a NodeSchool una comunidad mundial enfocada en capacitar sobre Node.js y JavaScript en general. Este es el repositorio para el capitulo Pereira.
 
