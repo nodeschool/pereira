@@ -17,3 +17,11 @@ La idea es que en este repositorio puedas [hacer alguna pregunta](https://github
  * Sitio oficial de la comunida NodeSchool: [nodeschool.io](http://nodeschool.io)
  * Sitio oficial del evento mundial: [nodeschool.io/international-day](http://nodeschool.io/international-day/)
  * Sitio oficial de la comunidad PereiraJS: [pereirajs.org](https://pereirajs.org)
+
+___
+
+## Sobre la web
+
+### Base
+
+* https://onepagelove.com/meetup
