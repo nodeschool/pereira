@@ -150,7 +150,7 @@ a:hover, a:focus, a:active, a:visited {
 	margin-top: 30px;
 }
 .feature span {
-	font-size: 5em;
+    font-size: 6em;
     color: #5a5a5a;
 }
 
@@ -366,9 +366,9 @@ a:active, a:focus {
         text-align: center;
         /* max-height: 550px; */
     }
-    .speaker .feature {
+    /* .speaker .feature {
         width: 100%
-    }
+    } */
     .footer-credit {
         text-align: center;
         padding: 40px 20px;
@@ -379,6 +379,9 @@ a:active, a:focus {
     }
     .side-menu {
         right: 15px;
+    }
+    .speaker-img {
+        max-width: 40%;
     }
 }
 
@@ -399,8 +402,12 @@ a:active, a:focus {
         text-align: center;
     }
     .speaker .feature {
-        width: 49%;
-        margin-right: 7px;
+        /* width: 49%; */
+        /* margin-right: 7px; */
+    }
+
+    .speaker-img {
+        max-width: 80%;
     }
     ul.footer-menu {
         margin-top: 0;
@@ -415,8 +422,7 @@ a:active, a:focus {
 /* iPad Landscape */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .speaker .feature {
-        width: 49%;
-        margin-right: 9px;
+    .speaker-img {
+        max-width: 80%;
     }
 }
