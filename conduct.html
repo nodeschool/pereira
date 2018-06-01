@@ -175,59 +175,55 @@
       <!-- Start: Footer -->
       <div class="container-fluid footer">
         <div class="row contact">
+          <h3 class="content-ct">
+            <span class="ti-email"></span> Contacto</h3>
           <div class="col-md-6 contact-form">
-            <h3 class="content-ct"><span class="ti-email"></span> Contact Form</h3>
-            <form class="form-horizontal" data-toggle="validator" role="form">
-              <div class="form-group">
-                <label for="name" class="col-sm-3 control-label">Name<sup>*</sup></label>
-                <div class="col-sm-9">
-                  <input type="text" class="form-control" id="name" placeholder="John Doe" required>
-                  <div class="help-block with-errors pull-right"></div>
-                  <span class="form-control-feedback" aria-hidden="true"></span>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="email" class="col-sm-3 control-label">Email<sup>*</sup></label>
-                <div class="col-sm-9">
-                  <input type="email" class="form-control" id="email" placeholder="you@youremail.com" required>
-                  <div class="help-block with-errors pull-right"></div>
-                  <span class="form-control-feedback" aria-hidden="true"></span>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="message" class="col-sm-3 control-label">Your Message<sup>*</sup></label>
-                <div class="col-sm-9">
-                  <textarea id="message" class="form-control" rows="3" required></textarea>
-                  <div class="help-block with-errors pull-right"></div>
-                  <span class="form-control-feedback" aria-hidden="true"></span>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="col-sm-offset-3 col-sm-9">
-                  <button type="submit" id="submit" name="submit" class="btn btn-yellow pull-right">Send <span class="ti-arrow-right"></span></button>
-                </div>
-              </div>
-            </form>
+            <h3 class="content-ct">
+              Nodeschool Pereira es sólo uno de los muchos capítulos de
+              <a href="https://nodeschool.io/chapters.html" target="_blank">
+                nodeschool.io
+              </a>.
+            </h3>
           </div>
-          <div class="col-md-4 col-md-offset-1 content-ct">
-            <h3><span class="ti-twitter"></span> Twitter Feed</h3>
-            <p>Lorem <a href="#">#Ipsum</a> is a dummy text used as a text filler in designs. This is just a dummy text. via <a href="#">@designerdada</a> </p>
-            <hr>
-            <p>Lorem Ipsum is a <a href="#">#dummy</a> text used as a text filler in designs. This is just a dummy text. via <a href="#">@designerdada</a> </p>
-            <hr>
-            <p>Lorem Ipsum is a <a href="#">#dummy</a> text used as a text filler in designs. This is just a dummy text. via <a href="#">@designerdada</a> </p>
+          <div class="col-md-4 col-md-offset-1">
+            <h3>
+              <span class="ti-world"></span> Síguenos</h3>
+            <ul>
+              <li>
+                <a href="https://twitter.com/PereiraJS_" target="blank_">
+                  <span class="ti-twitter"></span> Twitter</a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/javascriptpereira/" target="blank_">
+                  <span class="ti-facebook"></span> Facebook</a>
+              </li>
+              <li>
+                <a href="https://github.com/pereirajs" target="blank_">
+                  <span class="ti-github"></span> Github</a>
+              </li>
+              <li>
+                <a href="https://pereirajs.org" target="blank_">
+                  <span class="ti-link"></span> PereiraJs.org</a>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="row footer-credit">
           <div class="col-md-6 col-sm-6">
-            <p>&copy; 2015, <a href="http://www.designerdada.com">DesignerDada.com</a> | All rights reserved.</p>
+            <p>2018,
+              <a href="https://pereirajs.org">Pereira.JS</a>
+            </p>
           </div>
-          <div class="col-md-6 col-sm-6"> 
+          <div class="col-md-6 col-sm-6">
             <ul class="footer-menu">
-              <li><a href="http://pereirajs.org">Sobre Nosotros</a></li>
-              <li><a href="/conduct">Código de Conducta</a></li>
               <li>
-               <a href="http://github.com/nodeschool/pereira">Sobre la Web</a>
+                <a href="https://pereirajs.org">Sobre Nosotros</a>
+              </li>
+              <li>
+                <a href="/conduct">Código de Conducta</a>
+              </li>
+              <li>
+                <a href="https://github.com/nodeschool/pereira">Sobre la Web</a>
               </li>
             </ul>
           </div>
@@ -243,14 +239,13 @@
       <script src="js/scrolling-nav.js"></script>
       <script src="js/validator.js"></script>
       <!-- Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120230182-1"></script>
       <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-      ga('create', 'UA-29231762-2', 'auto');
-      ga('send', 'pageview');
+        gtag('config', 'UA-120230182-1');
       </script>
     </body>
-    </html>
+  </html>
